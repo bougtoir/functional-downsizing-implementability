@@ -1,0 +1,109 @@
+project:
+  title: "When Moving People Is Costly, Move Functions"
+  seed: 20260924
+  analysis_year: 2020
+  study_prefectures:
+    - {code: "31", name: "Tottori"}
+    - {code: "32", name: "Shimane"}
+    - {code: "33", name: "Okayama"}
+
+geography:
+  population_minimum: 5.0
+  demand_clusters_per_prefecture: 48
+  projected_crs: "EPSG:6673"
+  assumed_road_circuity: 1.35
+  assumed_average_speed_kmh: 40.0
+
+network_validation:
+  dataset_id: "geofabrik_chugoku_osm"
+  snapshot: "2026-09-01"
+  pbf_path: "data/raw/osm/chugoku-260901.osm.pbf"
+  cache_path: "data/interim/network_road_graph_chugoku_260901.npz"
+  bounding_box_wgs84: [131.3, 33.9, 134.9, 36.7]
+  connector_speed_kmh: 20.0
+  well_snapped_maximum_metres: 2000.0
+  minimum_routable_component_nodes: 250
+  road_speeds_kmh:
+    motorway: 80.0
+    motorway_link: 50.0
+    trunk: 60.0
+    trunk_link: 45.0
+    primary: 50.0
+    primary_link: 40.0
+    secondary: 45.0
+    secondary_link: 35.0
+    tertiary: 40.0
+    tertiary_link: 30.0
+    unclassified: 35.0
+    residential: 30.0
+    living_street: 20.0
+    service: 20.0
+  ferry_speed_kmh: 20.0
+
+mfg:
+  healthcare_max_minutes: 45.0
+  minimum_effective_provision: 0.85
+  permitted_diagnostic_slack_penalty: 1000.0
+
+costs:
+  fixed_facility_open: 28.0
+  fixed_facility_capacity_unit: 0.00008
+  mobile_hub_open: 12.0
+  mobile_service_per_resident: 0.0018
+  digital_service_per_resident: 0.0009
+  access_per_person_minute: 0.00004
+  transition_per_changed_asset: 5.0
+  relocation_per_person_km: 0.00006
+
+substitution:
+  healthcare_mobile_max_share: 0.30
+  healthcare_digital_max_share: 0.25
+  healthcare_combined_max_share: 0.45
+  mobile_hub_capacity_share: 0.35
+  digital_quality_effectiveness: 0.75
+  mobile_quality_effectiveness: 0.90
+
+capacity:
+  hospital_minimum_residents: 30000.0
+  hospital_residents_per_bed: 700.0
+  clinic_minimum_residents: 8000.0
+  clinic_residents_per_bed: 1000.0
+  planned_hub_residents: 25000.0
+
+candidate_edges:
+  same_municipality_limit: 8
+  regional_limit: 12
+
+experiment:
+  relocation_friction: [0.0, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16.0]
+  population_decline: [0.0, 0.2, 0.4, 0.6]
+  scenarios: ["A", "B", "C", "D"]
+  sensitivity_draws: 96
+
+sensitivity:
+  parameter_decimal_places: 12
+  relocation_friction: [0.05, 16.0]
+  mobile_cost_multiplier: [0.05, 5.0]
+  digital_cost_multiplier: [0.1, 5.0]
+  impedance_multiplier: [0.75, 1.5]
+  capacity_multiplier: [0.6, 1.4]
+  mfg_multiplier: [0.8, 1.2]
+
+robustness:
+  capacity_multipliers: [0.6, 0.8, 1.0, 1.2, 1.4]
+  relocation_cost_multipliers: [0.5, 1.0, 2.0]
+  sensitivity_holdout_folds: 4
+
+solver:
+  mip_relative_gap: 0.003
+  transition_mip_relative_gap: 0.006
+  time_limit_seconds: 120.0
+  retry_time_limit_seconds: 600.0
+  extended_retry_multiplier: 3.0
+
+manuscript:
+  target_journal: "Socio-Economic Planning Sciences"
+  article_type: "Research article"
+  abstract_word_limit: 250
+  main_word_limit: 20000
+  keyword_limit: 7
