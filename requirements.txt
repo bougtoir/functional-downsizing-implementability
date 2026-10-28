@@ -8,3 +8,4 @@ pyyaml
 openpyxl
 lxml
 pillow
+pytest
