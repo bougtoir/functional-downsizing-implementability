@@ -1,0 +1,17 @@
+{
+  "prefectures": [
+    "31",
+    "32",
+    "33"
+  ],
+  "municipalities": 68,
+  "populated_cells": 23699,
+  "demand_clusters": 144,
+  "all_medical_institutions": 4591,
+  "candidate_fixed_assets_and_hubs": 496,
+  "planned_hubs": 68,
+  "population_from_cells": 3092655.1543364525,
+  "population_in_clusters": 3092655.1543364525,
+  "population_conservation_relative_error": 0.0,
+  "crs": "EPSG:6673"
+}
