@@ -1,0 +1,7 @@
+case,offer_cap,feasible,E_pub,offers_made,moved_population,subsidy_outlay,E_pub_M4,delta_vs_M4,C_avoid_singles_max,C_avoid_singles_sum,C_avoid_coalition,superadditive,mip_gap
+accepted_preferred,1,True,50.640000000000015,0,8.43769498715119e-14,1.7719159473017498e-14,50.64,1.4210854715202004e-14,0.0,0.0,23.64,True,0.0
+accepted_preferred,5,True,48.0,5,100.0,21.0,50.64,-2.6400000000000006,0.0,0.0,23.64,True,0.0
+accepted_not_preferred,1,True,50.64,0,4.440892098500626e-15,2.6645352591003757e-15,50.64,0.0,0.0,0.0,23.64,True,0.0
+accepted_not_preferred,5,True,50.64,0,0.0,0.0,50.64,0.0,0.0,0.0,23.64,True,0.0
+refused,1,True,50.64000000000001,0,2.7755575615628914e-14,6.938893903907228e-15,50.64,7.105427357601002e-15,0.0,0.0,23.64,True,0.0
+refused,5,True,50.64000000000001,0,2.7755575615628914e-14,6.938893903907228e-15,50.64,7.105427357601002e-15,0.0,0.0,23.64,True,0.0

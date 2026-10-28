@@ -1,0 +1,1151 @@
+{
+  "toy": [
+    {
+      "case": "accepted_preferred",
+      "offer_cap": 1,
+      "feasible": true,
+      "E_pub": 50.640000000000015,
+      "offers_made": 0,
+      "moved_population": 8.43769498715119e-14,
+      "subsidy_outlay": 1.7719159473017498e-14,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": 1.4210854715202004e-14,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    },
+    {
+      "case": "accepted_preferred",
+      "offer_cap": 5,
+      "feasible": true,
+      "E_pub": 48.0,
+      "offers_made": 5,
+      "moved_population": 100.0,
+      "subsidy_outlay": 21.0,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": -2.6400000000000006,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    },
+    {
+      "case": "accepted_not_preferred",
+      "offer_cap": 1,
+      "feasible": true,
+      "E_pub": 50.64,
+      "offers_made": 0,
+      "moved_population": 4.440892098500626e-15,
+      "subsidy_outlay": 2.6645352591003757e-15,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": 0.0,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    },
+    {
+      "case": "accepted_not_preferred",
+      "offer_cap": 5,
+      "feasible": true,
+      "E_pub": 50.64,
+      "offers_made": 0,
+      "moved_population": 0.0,
+      "subsidy_outlay": 0.0,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": 0.0,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    },
+    {
+      "case": "refused",
+      "offer_cap": 1,
+      "feasible": true,
+      "E_pub": 50.64000000000001,
+      "offers_made": 0,
+      "moved_population": 2.7755575615628914e-14,
+      "subsidy_outlay": 6.938893903907228e-15,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": 7.105427357601002e-15,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    },
+    {
+      "case": "refused",
+      "offer_cap": 5,
+      "feasible": true,
+      "E_pub": 50.64000000000001,
+      "offers_made": 0,
+      "moved_population": 2.7755575615628914e-14,
+      "subsidy_outlay": 6.938893903907228e-15,
+      "E_pub_M4": 50.64,
+      "delta_vs_M4": 7.105427357601002e-15,
+      "C_avoid_singles_max": 0.0,
+      "C_avoid_singles_sum": 0.0,
+      "C_avoid_coalition": 23.64,
+      "superadditive": true,
+      "mip_gap": 0.0
+    }
+  ],
+  "family_screen": [
+    {
+      "family": "facility_users",
+      "member": "facility_00140",
+      "n_clusters": 6,
+      "transfer_LB": 44971.988448507494,
+      "C_avoid_UB": 269.69883264689446,
+      "violation_possible": false,
+      "margin": -44702.2896158606
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00219",
+      "n_clusters": 5,
+      "transfer_LB": 37141.848104247736,
+      "C_avoid_UB": 225.0685798423767,
+      "violation_possible": false,
+      "margin": -36916.779524405356
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00455",
+      "n_clusters": 3,
+      "transfer_LB": 43747.67787736684,
+      "C_avoid_UB": 263.417693189621,
+      "violation_possible": false,
+      "margin": -43484.26018417722
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00516",
+      "n_clusters": 4,
+      "transfer_LB": 37726.742117638416,
+      "C_avoid_UB": 221.73063808574682,
+      "violation_possible": false,
+      "margin": -37505.01147955267
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00609",
+      "n_clusters": 10,
+      "transfer_LB": 54980.253272716625,
+      "C_avoid_UB": 303.4477253369331,
+      "violation_possible": false,
+      "margin": -54676.80554737969
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00663",
+      "n_clusters": 5,
+      "transfer_LB": 25350.96882696424,
+      "C_avoid_UB": 161.90669431114196,
+      "violation_possible": false,
+      "margin": -25189.062132653096
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00675",
+      "n_clusters": 5,
+      "transfer_LB": 29136.76114314534,
+      "C_avoid_UB": 180.70729904155732,
+      "violation_possible": false,
+      "margin": -28956.053844103782
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00713",
+      "n_clusters": 7,
+      "transfer_LB": 17617.089842420002,
+      "C_avoid_UB": 118.42600865001678,
+      "violation_possible": false,
+      "margin": -17498.663833769984
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00759",
+      "n_clusters": 5,
+      "transfer_LB": 29519.20417757916,
+      "C_avoid_UB": 186.96181809072493,
+      "violation_possible": false,
+      "margin": -29332.242359488435
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00832",
+      "n_clusters": 6,
+      "transfer_LB": 33227.573456814745,
+      "C_avoid_UB": 205.52308617863656,
+      "violation_possible": false,
+      "margin": -33022.05037063611
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_00888",
+      "n_clusters": 4,
+      "transfer_LB": 36743.627737761475,
+      "C_avoid_UB": 210.10068055410386,
+      "violation_possible": false,
+      "margin": -36533.52705720737
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01277",
+      "n_clusters": 8,
+      "transfer_LB": 89135.45618801062,
+      "C_avoid_UB": 496.19356742835043,
+      "violation_possible": false,
+      "margin": -88639.26262058227
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01441",
+      "n_clusters": 9,
+      "transfer_LB": 95952.51249619832,
+      "C_avoid_UB": 517.9304698829175,
+      "violation_possible": false,
+      "margin": -95434.5820263154
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01540",
+      "n_clusters": 4,
+      "transfer_LB": 27451.316113569337,
+      "C_avoid_UB": 171.5156471467495,
+      "violation_possible": false,
+      "margin": -27279.80046642259
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01564",
+      "n_clusters": 8,
+      "transfer_LB": 50463.9179464564,
+      "C_avoid_UB": 277.8466974536419,
+      "violation_possible": false,
+      "margin": -50186.07124900276
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01722",
+      "n_clusters": 3,
+      "transfer_LB": 2342.01307227931,
+      "C_avoid_UB": 41.284341721963884,
+      "violation_possible": false,
+      "margin": -2300.7287305573464
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01737",
+      "n_clusters": 2,
+      "transfer_LB": 7145.288988665148,
+      "C_avoid_UB": 68.75785816698074,
+      "violation_possible": false,
+      "margin": -7076.531130498168
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_01766",
+      "n_clusters": 8,
+      "transfer_LB": 72071.28152443131,
+      "C_avoid_UB": 398.1644115454674,
+      "violation_possible": false,
+      "margin": -71673.11711288584
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02299",
+      "n_clusters": 3,
+      "transfer_LB": 19304.46185140815,
+      "C_avoid_UB": 136.70324934773447,
+      "violation_possible": false,
+      "margin": -19167.758602060414
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02332",
+      "n_clusters": 2,
+      "transfer_LB": 25410.872499096105,
+      "C_avoid_UB": 169.89527324047089,
+      "violation_possible": false,
+      "margin": -25240.977225855633
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02381",
+      "n_clusters": 3,
+      "transfer_LB": 19681.02578919404,
+      "C_avoid_UB": 129.29542320394518,
+      "violation_possible": false,
+      "margin": -19551.730365990094
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02411",
+      "n_clusters": 3,
+      "transfer_LB": 57797.70218438301,
+      "C_avoid_UB": 351.28835493459707,
+      "violation_possible": false,
+      "margin": -57446.41382944841
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02532",
+      "n_clusters": 2,
+      "transfer_LB": 36055.000823245995,
+      "C_avoid_UB": 214.63651653175356,
+      "violation_possible": false,
+      "margin": -35840.36430671424
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02578",
+      "n_clusters": 1,
+      "transfer_LB": 73539.0695708267,
+      "C_avoid_UB": 428.0489437911987,
+      "violation_possible": false,
+      "margin": -73111.0206270355
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02776",
+      "n_clusters": 2,
+      "transfer_LB": 102120.35978321976,
+      "C_avoid_UB": 553.3809216281891,
+      "violation_possible": false,
+      "margin": -101566.97886159156
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02900",
+      "n_clusters": 1,
+      "transfer_LB": 28786.46523037035,
+      "C_avoid_UB": 181.7529710805893,
+      "violation_possible": false,
+      "margin": -28604.71225928976
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_02968",
+      "n_clusters": 2,
+      "transfer_LB": 84367.44240319845,
+      "C_avoid_UB": 447.86028472480774,
+      "violation_possible": false,
+      "margin": -83919.58211847364
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03107",
+      "n_clusters": 4,
+      "transfer_LB": 65443.848374645786,
+      "C_avoid_UB": 365.5511669742584,
+      "violation_possible": false,
+      "margin": -65078.29720767153
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03195",
+      "n_clusters": 3,
+      "transfer_LB": 29030.19304124261,
+      "C_avoid_UB": 166.65101242198946,
+      "violation_possible": false,
+      "margin": -28863.542028820622
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03221",
+      "n_clusters": 1,
+      "transfer_LB": 16713.148418811033,
+      "C_avoid_UB": 121.59295487060547,
+      "violation_possible": false,
+      "margin": -16591.55546394043
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03243",
+      "n_clusters": 3,
+      "transfer_LB": 31201.90970170748,
+      "C_avoid_UB": 191.08020841722487,
+      "violation_possible": false,
+      "margin": -31010.829493290254
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03345",
+      "n_clusters": 2,
+      "transfer_LB": 32999.10167705167,
+      "C_avoid_UB": 194.31165216274263,
+      "violation_possible": false,
+      "margin": -32804.79002488893
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03468",
+      "n_clusters": 5,
+      "transfer_LB": 66713.60551340123,
+      "C_avoid_UB": 396.2971497718811,
+      "violation_possible": false,
+      "margin": -66317.30836362934
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03479",
+      "n_clusters": 2,
+      "transfer_LB": 27478.562704872427,
+      "C_avoid_UB": 168.97050876932144,
+      "violation_possible": false,
+      "margin": -27309.592196103105
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03587",
+      "n_clusters": 1,
+      "transfer_LB": 34616.83889426465,
+      "C_avoid_UB": 217.5744217590332,
+      "violation_possible": false,
+      "margin": -34399.264472505616
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03861",
+      "n_clusters": 1,
+      "transfer_LB": 83101.18139010844,
+      "C_avoid_UB": 486.3737037658692,
+      "violation_possible": false,
+      "margin": -82614.80768634257
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03905",
+      "n_clusters": 1,
+      "transfer_LB": 33748.89376208535,
+      "C_avoid_UB": 217.34434693603515,
+      "violation_possible": false,
+      "margin": -33531.54941514931
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_03949",
+      "n_clusters": 2,
+      "transfer_LB": 9231.156482908913,
+      "C_avoid_UB": 80.7502773522377,
+      "violation_possible": false,
+      "margin": -9150.406205556676
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_04068",
+      "n_clusters": 1,
+      "transfer_LB": 27927.93298341796,
+      "C_avoid_UB": 181.93717598857882,
+      "violation_possible": false,
+      "margin": -27745.99580742938
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_04085",
+      "n_clusters": 2,
+      "transfer_LB": 22662.941102988265,
+      "C_avoid_UB": 142.82524133872985,
+      "violation_possible": false,
+      "margin": -22520.115861649534
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_04286",
+      "n_clusters": 2,
+      "transfer_LB": 50497.26987682477,
+      "C_avoid_UB": 306.60274525070196,
+      "violation_possible": false,
+      "margin": -50190.66713157407
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_04477",
+      "n_clusters": 1,
+      "transfer_LB": 28864.34076709096,
+      "C_avoid_UB": 186.5158578216553,
+      "violation_possible": false,
+      "margin": -28677.824909269304
+    },
+    {
+      "family": "facility_users",
+      "member": "facility_04492",
+      "n_clusters": 2,
+      "transfer_LB": 56521.653749677775,
+      "C_avoid_UB": 337.2232130348206,
+      "violation_possible": false,
+      "margin": -56184.430536642954
+    },
+    {
+      "family": "municipality",
+      "member": "31201",
+      "n_clusters": 11,
+      "transfer_LB": 99441.38889880177,
+      "C_avoid_UB": 532.5791519470691,
+      "violation_possible": false,
+      "margin": -98908.8097468547
+    },
+    {
+      "family": "municipality",
+      "member": "31202",
+      "n_clusters": 8,
+      "transfer_LB": 70656.99535358671,
+      "C_avoid_UB": 365.1440134872437,
+      "violation_possible": false,
+      "margin": -70291.85134009947
+    },
+    {
+      "family": "municipality",
+      "member": "31203",
+      "n_clusters": 3,
+      "transfer_LB": 25556.311482413228,
+      "C_avoid_UB": 126.88814276590348,
+      "violation_possible": false,
+      "margin": -25429.423339647325
+    },
+    {
+      "family": "municipality",
+      "member": "31204",
+      "n_clusters": 3,
+      "transfer_LB": 16822.86746789529,
+      "C_avoid_UB": 90.06021123046875,
+      "violation_possible": false,
+      "margin": -16732.80725666482
+    },
+    {
+      "family": "municipality",
+      "member": "31302",
+      "n_clusters": 2,
+      "transfer_LB": 6199.118040227878,
+      "C_avoid_UB": 31.16788958272934,
+      "violation_possible": false,
+      "margin": -6167.950150645149
+    },
+    {
+      "family": "municipality",
+      "member": "31325",
+      "n_clusters": 1,
+      "transfer_LB": 1565.3859453283812,
+      "C_avoid_UB": 8.78405653796196,
+      "violation_possible": false,
+      "margin": -1556.6018887904193
+    },
+    {
+      "family": "municipality",
+      "member": "31328",
+      "n_clusters": 1,
+      "transfer_LB": 3567.4604490579127,
+      "C_avoid_UB": 19.260434338045123,
+      "violation_possible": false,
+      "margin": -3548.2000147198673
+    },
+    {
+      "family": "municipality",
+      "member": "31329",
+      "n_clusters": 2,
+      "transfer_LB": 10131.130272353797,
+      "C_avoid_UB": 47.377389595413206,
+      "violation_possible": false,
+      "margin": -10083.752882758385
+    },
+    {
+      "family": "municipality",
+      "member": "31364",
+      "n_clusters": 1,
+      "transfer_LB": 3269.9110729046342,
+      "C_avoid_UB": 17.65398899588585,
+      "violation_possible": false,
+      "margin": -3252.2570839087484
+    },
+    {
+      "family": "municipality",
+      "member": "31370",
+      "n_clusters": 2,
+      "transfer_LB": 8554.7016276422,
+      "C_avoid_UB": 42.31277030181885,
+      "violation_possible": false,
+      "margin": -8512.388857340382
+    },
+    {
+      "family": "municipality",
+      "member": "31371",
+      "n_clusters": 2,
+      "transfer_LB": 9359.31249271774,
+      "C_avoid_UB": 46.47843333907127,
+      "violation_possible": false,
+      "margin": -9312.834059378669
+    },
+    {
+      "family": "municipality",
+      "member": "31372",
+      "n_clusters": 2,
+      "transfer_LB": 7747.493294431776,
+      "C_avoid_UB": 37.82465795001984,
+      "violation_possible": false,
+      "margin": -7709.668636481756
+    },
+    {
+      "family": "municipality",
+      "member": "31384",
+      "n_clusters": 1,
+      "transfer_LB": 1707.0118968566892,
+      "C_avoid_UB": 9.216021038818358,
+      "violation_possible": false,
+      "margin": -1697.7958758178709
+    },
+    {
+      "family": "municipality",
+      "member": "31386",
+      "n_clusters": 2,
+      "transfer_LB": 8899.98070524113,
+      "C_avoid_UB": 43.2663398926735,
+      "violation_possible": false,
+      "margin": -8856.714365348456
+    },
+    {
+      "family": "municipality",
+      "member": "31389",
+      "n_clusters": 2,
+      "transfer_LB": 5983.21903472062,
+      "C_avoid_UB": 29.59244138388634,
+      "violation_possible": false,
+      "margin": -5953.626593336733
+    },
+    {
+      "family": "municipality",
+      "member": "31390",
+      "n_clusters": 2,
+      "transfer_LB": 6243.61239778309,
+      "C_avoid_UB": 30.513492671298984,
+      "violation_possible": false,
+      "margin": -6213.098905111791
+    },
+    {
+      "family": "municipality",
+      "member": "31401",
+      "n_clusters": 1,
+      "transfer_LB": 2229.5784092663134,
+      "C_avoid_UB": 13.245612435293198,
+      "violation_possible": false,
+      "margin": -2216.33279683102
+    },
+    {
+      "family": "municipality",
+      "member": "31402",
+      "n_clusters": 1,
+      "transfer_LB": 1738.3272752819537,
+      "C_avoid_UB": 9.385090268468858,
+      "violation_possible": false,
+      "margin": -1728.9421850134847
+    },
+    {
+      "family": "municipality",
+      "member": "31403",
+      "n_clusters": 1,
+      "transfer_LB": 1577.1945543597221,
+      "C_avoid_UB": 8.515147564029695,
+      "violation_possible": false,
+      "margin": -1568.6794067956923
+    },
+    {
+      "family": "municipality",
+      "member": "32201",
+      "n_clusters": 9,
+      "transfer_LB": 103811.876365934,
+      "C_avoid_UB": 518.2388231158734,
+      "violation_possible": false,
+      "margin": -103293.63754281813
+    },
+    {
+      "family": "municipality",
+      "member": "32202",
+      "n_clusters": 4,
+      "transfer_LB": 32544.00354461734,
+      "C_avoid_UB": 153.0455383378029,
+      "violation_possible": false,
+      "margin": -32390.958006279536
+    },
+    {
+      "family": "municipality",
+      "member": "32203",
+      "n_clusters": 8,
+      "transfer_LB": 85393.8544451065,
+      "C_avoid_UB": 428.61716163125044,
+      "violation_possible": false,
+      "margin": -84965.23728347525
+    },
+    {
+      "family": "municipality",
+      "member": "32204",
+      "n_clusters": 3,
+      "transfer_LB": 26280.257813671604,
+      "C_avoid_UB": 123.5135423588276,
+      "violation_possible": false,
+      "margin": -26156.744271312775
+    },
+    {
+      "family": "municipality",
+      "member": "32205",
+      "n_clusters": 3,
+      "transfer_LB": 19982.32220368542,
+      "C_avoid_UB": 92.98754590244293,
+      "violation_possible": false,
+      "margin": -19889.334657782976
+    },
+    {
+      "family": "municipality",
+      "member": "32206",
+      "n_clusters": 3,
+      "transfer_LB": 22124.351792893303,
+      "C_avoid_UB": 105.48754129328728,
+      "violation_possible": false,
+      "margin": -22018.864251600015
+    },
+    {
+      "family": "municipality",
+      "member": "32207",
+      "n_clusters": 2,
+      "transfer_LB": 13181.955285641887,
+      "C_avoid_UB": 62.10286635789872,
+      "violation_possible": false,
+      "margin": -13119.852419283989
+    },
+    {
+      "family": "municipality",
+      "member": "32209",
+      "n_clusters": 3,
+      "transfer_LB": 22189.301458172024,
+      "C_avoid_UB": 106.10186779031754,
+      "violation_possible": false,
+      "margin": -22083.199590381708
+    },
+    {
+      "family": "municipality",
+      "member": "32343",
+      "n_clusters": 2,
+      "transfer_LB": 6728.441176946927,
+      "C_avoid_UB": 36.21539611587525,
+      "violation_possible": false,
+      "margin": -6692.225780831051
+    },
+    {
+      "family": "municipality",
+      "member": "32386",
+      "n_clusters": 1,
+      "transfer_LB": 2441.2088453810316,
+      "C_avoid_UB": 13.956369029760362,
+      "violation_possible": false,
+      "margin": -2427.252476351271
+    },
+    {
+      "family": "municipality",
+      "member": "32441",
+      "n_clusters": 1,
+      "transfer_LB": 1789.5577018905017,
+      "C_avoid_UB": 9.685333541965486,
+      "violation_possible": false,
+      "margin": -1779.8723683485362
+    },
+    {
+      "family": "municipality",
+      "member": "32448",
+      "n_clusters": 1,
+      "transfer_LB": 2490.052587468052,
+      "C_avoid_UB": 13.443595253276825,
+      "violation_possible": false,
+      "margin": -2476.6089922147753
+    },
+    {
+      "family": "municipality",
+      "member": "32449",
+      "n_clusters": 1,
+      "transfer_LB": 4747.743482080936,
+      "C_avoid_UB": 30.155039759159088,
+      "violation_possible": false,
+      "margin": -4717.588442321777
+    },
+    {
+      "family": "municipality",
+      "member": "32501",
+      "n_clusters": 1,
+      "transfer_LB": 3928.3133609673496,
+      "C_avoid_UB": 21.20865041913986,
+      "violation_possible": false,
+      "margin": -3907.10471054821
+    },
+    {
+      "family": "municipality",
+      "member": "32505",
+      "n_clusters": 1,
+      "transfer_LB": 2953.5244764053823,
+      "C_avoid_UB": 15.945843003988267,
+      "violation_possible": false,
+      "margin": -2937.578633401394
+    },
+    {
+      "family": "municipality",
+      "member": "32525",
+      "n_clusters": 1,
+      "transfer_LB": 840.3607160333634,
+      "C_avoid_UB": 4.537040458488464,
+      "violation_possible": false,
+      "margin": -835.8236755748749
+    },
+    {
+      "family": "municipality",
+      "member": "32526",
+      "n_clusters": 1,
+      "transfer_LB": 1280.7029370467662,
+      "C_avoid_UB": 6.914412977457047,
+      "violation_possible": false,
+      "margin": -1273.7885240693092
+    },
+    {
+      "family": "municipality",
+      "member": "32527",
+      "n_clusters": 1,
+      "transfer_LB": 220.9494191991806,
+      "C_avoid_UB": 1.1928882860183716,
+      "violation_possible": false,
+      "margin": -219.75653091316224
+    },
+    {
+      "family": "municipality",
+      "member": "32528",
+      "n_clusters": 2,
+      "transfer_LB": 7145.288988665148,
+      "C_avoid_UB": 68.75785816698074,
+      "violation_possible": false,
+      "margin": -7076.531130498168
+    },
+    {
+      "family": "municipality",
+      "member": "33101",
+      "n_clusters": 4,
+      "transfer_LB": 163730.73220229783,
+      "C_avoid_UB": 976.9395040878297,
+      "violation_possible": false,
+      "margin": -162753.79269821002
+    },
+    {
+      "family": "municipality",
+      "member": "33102",
+      "n_clusters": 2,
+      "transfer_LB": 52153.24444892495,
+      "C_avoid_UB": 308.4273604644776,
+      "violation_possible": false,
+      "margin": -51844.81708846047
+    },
+    {
+      "family": "municipality",
+      "member": "33103",
+      "n_clusters": 2,
+      "transfer_LB": 55202.03626752733,
+      "C_avoid_UB": 291.7170340576172,
+      "violation_possible": false,
+      "margin": -54910.31923346971
+    },
+    {
+      "family": "municipality",
+      "member": "33104",
+      "n_clusters": 3,
+      "transfer_LB": 85432.05601306423,
+      "C_avoid_UB": 479.3462994235993,
+      "violation_possible": false,
+      "margin": -84952.70971364062
+    },
+    {
+      "family": "municipality",
+      "member": "33202",
+      "n_clusters": 5,
+      "transfer_LB": 241686.7459492628,
+      "C_avoid_UB": 1381.7508067956926,
+      "violation_possible": false,
+      "margin": -240304.99514246712
+    },
+    {
+      "family": "municipality",
+      "member": "33203",
+      "n_clusters": 2,
+      "transfer_LB": 54288.510156324075,
+      "C_avoid_UB": 282.5816423525333,
+      "violation_possible": false,
+      "margin": -54005.92851397154
+    },
+    {
+      "family": "municipality",
+      "member": "33204",
+      "n_clusters": 2,
+      "transfer_LB": 32999.10167705167,
+      "C_avoid_UB": 194.31165216274263,
+      "violation_possible": false,
+      "margin": -32804.79002488893
+    },
+    {
+      "family": "municipality",
+      "member": "33205",
+      "n_clusters": 2,
+      "transfer_LB": 26711.856510280217,
+      "C_avoid_UB": 134.52728665237427,
+      "violation_possible": false,
+      "margin": -26577.329223627843
+    },
+    {
+      "family": "municipality",
+      "member": "33207",
+      "n_clusters": 2,
+      "transfer_LB": 23199.749447031732,
+      "C_avoid_UB": 116.56879539985657,
+      "violation_possible": false,
+      "margin": -23083.180651631876
+    },
+    {
+      "family": "municipality",
+      "member": "33208",
+      "n_clusters": 2,
+      "transfer_LB": 36055.000823245995,
+      "C_avoid_UB": 214.63651653175356,
+      "violation_possible": false,
+      "margin": -35840.36430671424
+    },
+    {
+      "family": "municipality",
+      "member": "33209",
+      "n_clusters": 1,
+      "transfer_LB": 17322.350326782704,
+      "C_avoid_UB": 93.52198736715317,
+      "violation_possible": false,
+      "margin": -17228.82833941555
+    },
+    {
+      "family": "municipality",
+      "member": "33210",
+      "n_clusters": 1,
+      "transfer_LB": 16713.148418811033,
+      "C_avoid_UB": 121.59295487060547,
+      "violation_possible": false,
+      "margin": -16591.55546394043
+    },
+    {
+      "family": "municipality",
+      "member": "33211",
+      "n_clusters": 1,
+      "transfer_LB": 17703.09589569397,
+      "C_avoid_UB": 95.57760231628419,
+      "violation_possible": false,
+      "margin": -17607.518293377685
+    },
+    {
+      "family": "municipality",
+      "member": "33212",
+      "n_clusters": 1,
+      "transfer_LB": 17460.56416845703,
+      "C_avoid_UB": 94.26819287109376,
+      "violation_possible": false,
+      "margin": -17366.295975585934
+    },
+    {
+      "family": "municipality",
+      "member": "33213",
+      "n_clusters": 2,
+      "transfer_LB": 24325.793748800115,
+      "C_avoid_UB": 116.6524078989029,
+      "violation_possible": false,
+      "margin": -24209.141340901213
+    },
+    {
+      "family": "municipality",
+      "member": "33214",
+      "n_clusters": 2,
+      "transfer_LB": 28565.054880978692,
+      "C_avoid_UB": 130.25976860532762,
+      "violation_possible": false,
+      "margin": -28434.795112373366
+    },
+    {
+      "family": "municipality",
+      "member": "33215",
+      "n_clusters": 1,
+      "transfer_LB": 15002.7617993886,
+      "C_avoid_UB": 80.99871397390366,
+      "violation_possible": false,
+      "margin": -14921.763085414696
+    },
+    {
+      "family": "municipality",
+      "member": "33216",
+      "n_clusters": 1,
+      "transfer_LB": 17484.31000935745,
+      "C_avoid_UB": 94.39639477157593,
+      "violation_possible": false,
+      "margin": -17389.913614585876
+    },
+    {
+      "family": "municipality",
+      "member": "33346",
+      "n_clusters": 1,
+      "transfer_LB": 7707.776603402138,
+      "C_avoid_UB": 41.61367092418671,
+      "violation_possible": false,
+      "margin": -7666.1629324779515
+    },
+    {
+      "family": "municipality",
+      "member": "33423",
+      "n_clusters": 1,
+      "transfer_LB": 5080.474052032469,
+      "C_avoid_UB": 27.429074066162105,
+      "violation_possible": false,
+      "margin": -5053.044977966308
+    },
+    {
+      "family": "municipality",
+      "member": "33445",
+      "n_clusters": 1,
+      "transfer_LB": 5559.5510570755005,
+      "C_avoid_UB": 30.015572593688965,
+      "violation_possible": false,
+      "margin": -5529.535484481811
+    },
+    {
+      "family": "municipality",
+      "member": "33461",
+      "n_clusters": 1,
+      "transfer_LB": 7637.697864581108,
+      "C_avoid_UB": 41.235321404457096,
+      "violation_possible": false,
+      "margin": -7596.462543176651
+    },
+    {
+      "family": "municipality",
+      "member": "33586",
+      "n_clusters": 1,
+      "transfer_LB": 465.1381602639198,
+      "C_avoid_UB": 2.511243816661835,
+      "violation_possible": false,
+      "margin": -462.626916447258
+    },
+    {
+      "family": "municipality",
+      "member": "33606",
+      "n_clusters": 1,
+      "transfer_LB": 6930.256989586544,
+      "C_avoid_UB": 37.41590456285477,
+      "violation_possible": false,
+      "margin": -6892.841085023689
+    },
+    {
+      "family": "municipality",
+      "member": "33622",
+      "n_clusters": 1,
+      "transfer_LB": 5649.530452249144,
+      "C_avoid_UB": 30.501364169311522,
+      "violation_possible": false,
+      "margin": -5619.029088079833
+    },
+    {
+      "family": "municipality",
+      "member": "33623",
+      "n_clusters": 1,
+      "transfer_LB": 3102.6302670185564,
+      "C_avoid_UB": 16.75085327124596,
+      "violation_possible": false,
+      "margin": -3085.8794137473105
+    },
+    {
+      "family": "municipality",
+      "member": "33643",
+      "n_clusters": 1,
+      "transfer_LB": 734.2396029616356,
+      "C_avoid_UB": 3.964101035785675,
+      "violation_possible": false,
+      "margin": -730.2755019258499
+    },
+    {
+      "family": "municipality",
+      "member": "33663",
+      "n_clusters": 1,
+      "transfer_LB": 2681.0199200640677,
+      "C_avoid_UB": 14.474612645816803,
+      "violation_possible": false,
+      "margin": -2666.545307418251
+    },
+    {
+      "family": "municipality",
+      "member": "33666",
+      "n_clusters": 1,
+      "transfer_LB": 7507.800108398724,
+      "C_avoid_UB": 40.53401378259659,
+      "violation_possible": false,
+      "margin": -7467.266094616127
+    },
+    {
+      "family": "municipality",
+      "member": "33681",
+      "n_clusters": 1,
+      "transfer_LB": 6550.136562844846,
+      "C_avoid_UB": 35.3636647064209,
+      "violation_possible": false,
+      "margin": -6514.772898138424
+    }
+  ],
+  "paired": [
+    {
+      "family": "municipality",
+      "member": "32527",
+      "n_clusters": 1,
+      "C_avoid_exact": 0.6719999999993433,
+      "transfer_LB": 220.9494191991806,
+      "switch_possible": false
+    },
+    {
+      "family": "municipality",
+      "member": "33586",
+      "n_clusters": 1,
+      "C_avoid_exact": 1.5120000000010805,
+      "transfer_LB": 465.1381602639198,
+      "switch_possible": false
+    },
+    {
+      "family": "municipality",
+      "member": "33643",
+      "n_clusters": 1,
+      "C_avoid_exact": 0.9519999999995434,
+      "transfer_LB": 734.2396029616356,
+      "switch_possible": false
+    },
+    {
+      "family": "municipality",
+      "member": "32525",
+      "n_clusters": 1,
+      "C_avoid_exact": 0.9520000000170512,
+      "transfer_LB": 840.3607160333634,
+      "switch_possible": false
+    },
+    {
+      "family": "municipality",
+      "member": "32526",
+      "n_clusters": 1,
+      "C_avoid_exact": 10.184316861597836,
+      "transfer_LB": 1280.7029370467662,
+      "switch_possible": false
+    },
+    {
+      "family": "municipality",
+      "member": "31325",
+      "n_clusters": 1,
+      "C_avoid_exact": 1.5119999999992615,
+      "transfer_LB": 1565.3859453283812,
+      "switch_possible": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "figures": [
+    "outputs/figures/F1_conceptual_framework.png",
+    "outputs/figures/F2_study_area.png",
+    "outputs/figures/F3_cost_rf_depopulation.png",
+    "outputs/figures/F4_strategy_substitution.png",
+    "outputs/figures/F5_functional_catchments.png",
+    "outputs/figures/F6_normalized_objective_reduction.png",
+    "outputs/figures/F7_sensitivity.png"
+  ],
+  "model_seed": 20260924,
+  "source_results": [
+    "outputs/results/primary_results.csv",
+    "outputs/results/transition_refinement.csv",
+    "outputs/results/sensitivity_results.csv"
+  ]
+}

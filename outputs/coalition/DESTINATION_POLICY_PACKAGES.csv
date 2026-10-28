@@ -1,0 +1,6 @@
+package,offers_scope,coalitions,destination_design,retirement,toy_result,real_result,notes
+M0,none(forced),no,no,yes(planner),n/a,1.3k-3.06M forced moves; 0% voluntary-consistent,planner baseline RF sweep
+M4,individual cap1,no,fixed,yes,R (0 offers),R (0 offers all S),individual participation fixed destinations
+M5,unrestricted,yes,fixed,yes,V toy E48.00<50.64,R all screened families,coalition + reoptimization
+M6,individual cap1,no,z free,yes,toy-scope only,not computed,individual + destination design
+M7,unrestricted,yes,z free,yes,toy-scope only,not computed,coalition + design + retirement
