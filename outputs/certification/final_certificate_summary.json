@@ -1,0 +1,17 @@
+{
+  "baseline_E0": 1323.0156056063174,
+  "n_cells": 18,
+  "n_numerical_non_improvement_bound": 15,
+  "n_unknown": 3,
+  "n_exact": 0,
+  "n_invalid": 0,
+  "max_unexcluded_improvement": 4.547473508864641e-12,
+  "bound_source": "solver mip_dual_bound (direct)",
+  "dual_equals_primal_all_resolved": true,
+  "mip_gap_all": [
+    0.0
+  ],
+  "solver_status_all": [
+    0
+  ]
+}

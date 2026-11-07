@@ -24,7 +24,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 59.515
+      "runtime_seconds": 140.33
     },
     {
       "move_burden_kappa": 0.005,
@@ -42,7 +42,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 37.056
+      "runtime_seconds": 85.783
     },
     {
       "move_burden_kappa": 0.005,
@@ -60,7 +60,7 @@
       "n_open_facilities": 149,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": false,
-      "runtime_seconds": 3.546
+      "runtime_seconds": 9.597
     },
     {
       "move_burden_kappa": 0.005,
@@ -78,7 +78,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 36.571
+      "runtime_seconds": 83.275
     },
     {
       "move_burden_kappa": 0.005,
@@ -96,7 +96,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 37.891
+      "runtime_seconds": 81.084
     },
     {
       "move_burden_kappa": 0.005,
@@ -114,7 +114,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 43.838
+      "runtime_seconds": 97.964
     },
     {
       "move_burden_kappa": 0.005,
@@ -132,7 +132,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 37.286
+      "runtime_seconds": 86.363
     },
     {
       "move_burden_kappa": 0.02,
@@ -150,7 +150,7 @@
       "n_open_facilities": 162,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": false,
-      "runtime_seconds": 3.624
+      "runtime_seconds": 9.536
     },
     {
       "move_burden_kappa": 0.02,
@@ -168,7 +168,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 40.992
+      "runtime_seconds": 90.372
     },
     {
       "move_burden_kappa": 0.02,
@@ -186,7 +186,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 59.647
+      "runtime_seconds": 131.436
     },
     {
       "move_burden_kappa": 0.02,
@@ -204,7 +204,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 37.272
+      "runtime_seconds": 86.268
     },
     {
       "move_burden_kappa": 0.02,
@@ -222,7 +222,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 34.419
+      "runtime_seconds": 77.783
     },
     {
       "move_burden_kappa": 0.05,
@@ -240,7 +240,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 49.142
+      "runtime_seconds": 107.344
     },
     {
       "move_burden_kappa": 0.05,
@@ -258,7 +258,7 @@
       "n_open_facilities": 164,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": false,
-      "runtime_seconds": 3.425
+      "runtime_seconds": 9.313
     },
     {
       "move_burden_kappa": 0.05,
@@ -276,7 +276,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 36.625
+      "runtime_seconds": 79.18
     },
     {
       "move_burden_kappa": 0.05,
@@ -294,7 +294,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 48.894
+      "runtime_seconds": 129.945
     },
     {
       "move_burden_kappa": 0.05,
@@ -312,7 +312,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 41.851
+      "runtime_seconds": 101.368
     },
     {
       "move_burden_kappa": 0.05,
@@ -330,7 +330,7 @@
       "n_open_facilities": 43,
       "stayer_mfg_fail_population": 0.0,
       "no_switch_certified": true,
-      "runtime_seconds": 52.33
+      "runtime_seconds": 113.962
     }
   ],
   "verdict": "NOT_CERTIFIED"

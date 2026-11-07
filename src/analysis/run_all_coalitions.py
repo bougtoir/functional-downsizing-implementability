@@ -101,9 +101,9 @@ def main():
         s = sol.summary
         gap = s.get("solver_mip_gap", np.nan)
         obj = s["E_pub"] if s["feasible"] else np.nan
-        # dual bound: obj*(1-gap) is HiGHS' optimality gap convention;
-        # certified lower bound on the true optimum.
-        lb = obj * (1.0 - gap) if np.isfinite(gap) else np.nan
+        # certified lower bound taken directly from the solver-reported
+        # MIP dual bound; never reconstructed from obj*(1-gap).
+        lb = float(s.get("solver_mip_dual_bound", np.nan))
         rows.append({
             **b,
             "feasible": s["feasible"],

@@ -20,4 +20,14 @@ Reproduce the headline numbers:
 - `python -m src.analysis.run_lexicographic` — stage-2 max-movers tolerance check
 - `python -m pytest tests/` — toy counterexample + model regression
 
+Numerical certification: `run_all_coalitions` reports a per-cell certified
+lower bound (`certified_lb`) taken **directly from the solver-reported
+`mip_dual_bound`** (HiGHS dual bound of the relaxed implementability MILP),
+plus `solver_status`, `solver_mip_gap`, `solver_primal_objective` and
+`solver_mip_node_count`. A cell is certified only when this bound is finite
+and meets the baseline criterion; `certified_lb` is never reconstructed from
+the primal objective and optimality gap. See
+`outputs/all_coalitions/all_coalitions_certificate.csv` and
+`tests/test_dual_bound_extraction.py`.
+
 No LICENSE file is included: reuse rights reserved pending the author's license decision.

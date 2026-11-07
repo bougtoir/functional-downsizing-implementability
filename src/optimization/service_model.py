@@ -620,6 +620,8 @@ def solve_service_model(
         "solver_status": int(result.status),
         "solver_message": str(result.message),
         "solver_mip_gap": achieved_mip_gap,
+        "solver_mip_dual_bound": float(result.get("mip_dual_bound", np.nan)),
+        "solver_mip_node_count": int(result.get("mip_node_count", -1) or -1),
         "runtime_seconds": perf_counter() - started,
         "objective_total": objective_components,
         "cost_per_resident": objective_components / total_population,
