@@ -24,10 +24,19 @@ Numerical certification: `run_all_coalitions` reports a per-cell certified
 lower bound (`certified_lb`) taken **directly from the solver-reported
 `mip_dual_bound`** (HiGHS dual bound of the relaxed implementability MILP),
 plus `solver_status`, `solver_mip_gap`, `solver_primal_objective` and
-`solver_mip_node_count`. A cell is certified only when this bound is finite
-and meets the baseline criterion; `certified_lb` is never reconstructed from
-the primal objective and optimality gap. See
-`outputs/all_coalitions/all_coalitions_certificate.csv` and
-`tests/test_dual_bound_extraction.py`.
+`solver_mip_node_count`. `certified_lb` is never reconstructed from the
+primal objective and optimality gap.
+
+Classification (`src/analysis/certification.py`) is a pure function of
+solver evidence — dual bound vs the maintain reference objective — via
+`reported_max_unexcluded_improvement = max(0, E0 - LB_R)` against an
+explicit threshold (1e-9 absolute model-cost units). Classes:
+NUMERICAL_NON_IMPROVEMENT_BOUND / UNKNOWN / INVALID. The incumbent's mover
+count (`returned_zero_mover_solution`) is a separate diagnostic and never
+enters the classification. `no_switch_certified` is a deprecated
+bound-derived alias kept only for downstream readers. See
+`outputs/all_coalitions/all_coalitions_certificate.csv`,
+`tests/test_dual_bound_extraction.py` and
+`tests/test_certification_classification.py`.
 
 No LICENSE file is included: reuse rights reserved pending the author's license decision.

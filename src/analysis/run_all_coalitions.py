@@ -31,6 +31,10 @@ import pandas as pd
 
 from ..common import load_config
 from ..optimization.voluntary_model import solve_voluntary_model
+from .certification import (
+    NUMERICAL_NON_IMPROVEMENT_BOUND,
+    classify_cell,
+)
 
 OUT = Path("outputs/all_coalitions")
 NO_MOVE_S = -1e6
@@ -104,6 +108,14 @@ def main():
         # certified lower bound taken directly from the solver-reported
         # MIP dual bound; never reconstructed from obj*(1-gap).
         lb = float(s.get("solver_mip_dual_bound", np.nan))
+        cert = classify_cell(
+            relaxation_dual_bound=lb,
+            maintain_reference_objective=e_m4,
+            solver_status=s.get("solver_status"),
+            solver_success=s.get("feasible"),
+            solver_mip_gap=gap,
+            moved_population=s.get("moved_population", np.nan),
+        )
         rows.append({
             **b,
             "feasible": s["feasible"],
@@ -117,9 +129,16 @@ def main():
             "subsidy_outlay": s.get("subsidy_outlay", np.nan),
             "n_open_facilities": s.get("n_open_facilities"),
             "stayer_mfg_fail_population": s.get("stayer_mfg_fail_population"),
-            "no_switch_certified": bool(
-                s["feasible"] and np.isfinite(gap) and gap < 1e-9
-                and s.get("moved_population", 1) < 1e-6
+            # Bound-based certification (the sufficient condition is on the
+            # objective bound, never on the incumbent's mover count).
+            **cert,
+            # Deprecated diagnostic alias kept for downstream readers
+            # (manuscript builder); it is bound-derived, NOT a mover-count
+            # certificate, and must not be treated as a mathematical
+            # certificate in new code.
+            "no_switch_certified": (
+                cert["numerical_certificate_class"]
+                == NUMERICAL_NON_IMPROVEMENT_BOUND
             ),
             "runtime_seconds": round(time.time() - t0, 3),
         })

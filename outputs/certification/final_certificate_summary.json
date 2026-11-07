@@ -1,17 +1,17 @@
 {
   "baseline_E0": 1323.0156056063174,
   "n_cells": 18,
-  "n_numerical_non_improvement_bound": 15,
-  "n_unknown": 3,
-  "n_exact": 0,
-  "n_invalid": 0,
-  "max_unexcluded_improvement": 4.547473508864641e-12,
+  "classification_counts": {
+    "NUMERICAL_NON_IMPROVEMENT_BOUND": 15,
+    "UNKNOWN": 3
+  },
   "bound_source": "solver mip_dual_bound (direct)",
-  "dual_equals_primal_all_resolved": true,
+  "classification_rule": "INVALID if bound missing/bad status; UNKNOWN if E0-LB>threshold; else NUMERICAL_NON_IMPROVEMENT_BOUND; threshold=1e-9 abs; mover count diagnostic only",
   "mip_gap_all": [
     0.0
   ],
   "solver_status_all": [
     0
-  ]
+  ],
+  "max_reported_unexcluded_improvement_certified_cells": 4.547473508864641e-12
 }
